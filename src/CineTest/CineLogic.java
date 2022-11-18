@@ -25,8 +25,4 @@ public class CineLogic {
 		}	
 	}
 	
-	public boolean emptySavedMoney() {
-		return (savedMoney==0);
-	}
-	
 }
