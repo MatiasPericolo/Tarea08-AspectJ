@@ -17,12 +17,14 @@ public class CineLogic {
 	}
 	
 	public boolean buyFilm(int cost) {
+		
 		if(cost<savedMoney) {
 			savedMoney -= cost;
 			return true;
 		}else{
 			return false;
-		}	
+		}
+		
 	}
 	
 }

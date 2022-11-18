@@ -6,8 +6,7 @@ public class Main {
 		CineLogic cine= new CineLogic(1000);
 		cine.sellTicket(100);
 		cine.buyFilm(600);
-		cine.buyFilm(600);
-		
+		cine.buyFilm(600);	
 	}
 	
 }
